@@ -89,15 +89,15 @@
             <form action="tabelaPrice.jsp">
                 <div class="form-group">
                     <label for="valor">Valor a Financiar (R$)</label>
-                    <input class="form-control" type="number" name="valor"/>
+                    <input class="form-control" type="number" name="valor" required />
                 </div>
                 <div class="form-group">
                     <label for="taxa">Taxa de juros mensal %</label>
-                    <input class="form-control" type="number" name="juros"/>
+                    <input class="form-control" type="number" name="juros" required />
                 </div>
                 <div class="form-group">
                     <label for="meses">Quantidade de meses</label>
-                    <input class="form-control" type="number" name="mes"/>
+                    <input class="form-control" type="number" name="mes" required />
                 </div>
                 <button class="btn btn-secondary btn-lg container center-align" type="submit" name="random" value="calcular">Calcular</button>
             </form>
